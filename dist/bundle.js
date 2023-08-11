@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelector(".addItemBtn").addEventListener("click",(()=>{console.log("add todo")}))})();
