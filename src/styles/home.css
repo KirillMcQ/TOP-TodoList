@@ -1,0 +1,39 @@
+body {
+  background-color: #d9d2cc;
+}
+
+.addTodoBtn {
+  background-color: #723e31;
+  border: none;
+  border-radius: 5px;
+  color: #f2f1ef;
+  height: 50px;
+}
+
+.addTodoBtn:hover {
+  cursor: pointer;
+  opacity: 0.95;
+}
+
+.addTodoBtn:active {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.allWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.addTodoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.todoInput {
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 20px;
+}
