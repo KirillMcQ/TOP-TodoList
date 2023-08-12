@@ -1,8 +1,9 @@
 class todoItem {
-  constructor(title, description, dueDate) {
+  constructor(title, description, dueDate, tags = "") {
     this.title = title;
     this.description = description;
     this.dueDate = dueDate;
+    this.tags = tags;
   }
 
   getTitle() {
@@ -15,6 +16,10 @@ class todoItem {
 
   getDueDate() {
     return this.dueDate;
+  }
+
+  getTags() {
+    return this.tags;
   }
 }
 
